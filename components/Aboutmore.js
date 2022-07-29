@@ -7,7 +7,7 @@ const Aboutmore = () => {
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-9 p-[2rem] md:p-5rem  md:mt-[6rem] ">
-        <div className="flex justify-center max-w-[600px] py-3rem px-[2rem] md:px-[4rem]">
+        <div className="flex justify-center max-w-[600px] py-3rem px-[1rem] md:px-[4rem]">
           <Image className="rounded-[1rem]" src={about} alt="about" />
         </div>
         <div className="flex  flex-col">
@@ -45,7 +45,7 @@ const Aboutmore = () => {
           Board as a contractor with the ability to perform work within the
           8CEPE, 5GB scope. Empyreal is a BBBEE Level One Contributor
         </p>
-        <div className="grid drid-cols-1 md:grid-cols-4 py-2 md:pt-[4rem] gap-5 mb-[3rem] pb-[2rem] px-3 md:px-[3rem]">
+        <div className="grid grid-cols-1 md:grid-cols-4 py-2 md:pt-[4rem] gap-5 mb-[3rem] pb-[2rem] px-3 md:px-[3rem]">
           <div className="card flex flex-col justify-center items-center p-2 md:p-[2rem]">
             <MdSchedule className="text-[4rem] text-blue-300 text-center" />
             <h1 className="text-[16px] md:text-[16px] text-center  pt-[1rem]  font-Poppins font-semibold">
@@ -73,12 +73,12 @@ const Aboutmore = () => {
               Empyreal Construction is a Level One BBBEE Contributor.
             </p>
           </div>
-          <div className="card flex flex-col justify-center items-center p-2 md:p-[2rem]">
+          <div className="card flex flex-col justify-center items-center p-2 md:p-[2rem] ">
             <MdVerified className="text-[4rem] text-blue-300 text-center" />
             <h1 className="text-[16px] md:text-[16px] text-center  pt-[1rem]  font-Poppins font-semibold">
               8CEPE, 5GB
             </h1>
-            <p className="text-[13px] md:text-[13px] text-center  pt-[.5rem] px-[.5rem]  font-Poppins font-semibold opacity-70 leading-6">
+            <p className="text-[13px] md:text-[13px] text-center  pt-[.5rem] px-[.5rem]   font-Poppins font-semibold opacity-70 leading-6">
               We are  contractor with the ability to perform work within the 8CEPE,
               5GB scope.
             </p>

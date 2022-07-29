@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react";
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
+import { BiRightArrowAlt, BiLeftArrowAlt } from "react-icons/bi";
+
 import { sliderData } from "./Slidar-data";
 import Image from "next/image"
+import Link from "next/link"
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -38,8 +40,8 @@ const Hero = () => {
 
   return (
     <div className="slider">
-      <AiOutlineArrowLeft className="arrow prev" onClick={prevSlide} />
-      <AiOutlineArrowRight className="arrow next" onClick={nextSlide} />
+      <BiLeftArrowAlt className="arrow prev" onClick={prevSlide} />
+      < BiRightArrowAlt className="arrow next" onClick={nextSlide} />
       {sliderData.map((slide, index) => {
         return (
           <div
@@ -50,10 +52,10 @@ const Hero = () => {
               <div>
                 <Image src={slide.image} alt="slide" layout="fill" className="image" />
                 <div className="content">
-                  <h2 className="md:text-5xl text-3xl text-center font-semibold">{slide.heading}</h2>
+                  <h2 className="md:text-5xl text-3xl  font-semibold">{slide.heading}</h2>
                   <p className="text-2xl sm:text-1xl ">{slide.desc}</p>
                   <hr />
-                  <button className="py-2 px-5 text-2xl sm:text-1xl font-semibold mt-5 bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:text-black">Get Started</button>
+                  <button className="bg-gradient-to-r from-blue-500 to-green-400 py-2 px-5 text-2xl sm:text-1xl font-semibold mt-5 hover:from-pink-500 hover:to-yellow-500 rounded-md cursor-pointer"><Link href="/contact">{slide.button}</Link></button>
                 </div>
               </div>
             )}

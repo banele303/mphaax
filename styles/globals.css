@@ -20,21 +20,37 @@
 
 
 
+.looking {
+  background-image: linear-gradient(to right top, #0a5789, #00638e, #006e90, #007890, #00828e, #008d93, #009796, #00a298, #00b1a4, #00c1b0, #04d1bb, #10e1c6);
+  
+}
 
 
 
 
+.contact-hero{
+  background-image: linear-gradient(to right top, #022339, #02233a, #02243a, #03243b, #03243b, #02243d, #01243f, #002441, #002346, #00224a, #00204e, #031e51);
+}
 
 
 
 
+.service{
+  filter: brightness(50%)
+}
 
 
 
 
+.footer{
+  margin-top:3rem;
+  background-image: linear-gradient(to right top, #022339, #02233a, #02243a, #03243b, #03243b, #02243d, #01243f, #002441, #002346, #00224a, #00204e, #031e51);
+}
 
-
-
+.send{
+  background-image: linear-gradient(to right top, #0a5789, #00638e, #006e90, #007890, #00828e, #008d93, #009796, #00a298, #00b1a4, #00c1b0, #04d1bb, #10e1c6);
+  
+}
 
 
 
@@ -60,6 +76,16 @@
     z-index: 88;
     width: 100%;
 }
+.scrolled {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right top, #022339, #02233a, #02243a, #03243b, #03243b, #02243d, #01243f, #002441, #002346, #00224a, #00204e, #031e51);
+    padding: 2rem 6rem;
+    position: fixed;
+    z-index: 88;
+    width: 100%;
+}
 
 .gpt3__navbar-links {
     flex: 1;
@@ -73,7 +99,7 @@
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62.56px;
+   
     height: 16.02px;
 }
 
@@ -106,8 +132,8 @@
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-    padding: 0.5rem 1rem;
-    color: #fff;
+    
+    /* color: #fff;
     background: #FF4820;
     font-family: var(--font-family);
     font-weight: 500;
@@ -116,7 +142,7 @@
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 
 .gpt3__navbar-menu {
@@ -201,6 +227,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
+    filter: brightness(80%)
   }
   
   .slide {
@@ -214,6 +241,12 @@
     transition: all 0.5s ease;
   }
   
+  @media screen and (max-width: 600px) {
+    .slider {
+      height: 100vh;
+    }
+  }
+
   @media screen and (min-width: 600px) {
     .slide img {
       width: 100%;
