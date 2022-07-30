@@ -15,7 +15,7 @@ const projects = () => {
       
      <Hero/>
 
-      <div className="flex md:space-y-4 w-[760px] flex-col md:flex-row justify-between pt-[5rem]  mb-[4rem] items-center mx-auto">
+      <div className="flex md:space-y-4 md:w-[760px] space-y-5 flex-col md:flex-row justify-between pt-[5rem]  mb-[4rem] items-center mx-auto">
         <div className="md:pt-3">
           <Button >ALL</Button>
         </div>
