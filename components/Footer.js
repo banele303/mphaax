@@ -1,5 +1,5 @@
 import React from "react";
-import { IoIosCall } from "react-icons/Io";
+import { IoIosCall } from "react-icons/io";
 import { ImLocation2 } from "react-icons/im";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
