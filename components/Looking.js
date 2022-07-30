@@ -76,7 +76,7 @@ const Looking = () => {
               <FaPeopleCarry className="text-[5.2rem] text-blue-500 " />
             </div>
             <h1 className="text-Poppins text-xl md:text-xl font-bold font-Poppins pl-3 pt-2">
-            Let&apos Execute The Project
+            Let Execute The Project
             </h1>
             <p className="text-[15px] flex w-[300px] font-Poppins text-center   pt-5">
             Hiring the best builders in South Africa is so easy. Here is how MPHA Construction works.
