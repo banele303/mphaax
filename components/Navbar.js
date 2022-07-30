@@ -31,7 +31,7 @@ const Navbar = () => {
      
       
       <div className="gpt3__navbar-links">
-        <div className="relative md:h-[50px] h-[80px] w-[180px] text-blue flex items-center ">
+        <div className="relative  md:h-[50px] h-[40px] w-[100px] md:w-[180px] text-blue flex items-center ">
         
          <Image src={logo} alt="logo" className='absolute '/>
         </div>

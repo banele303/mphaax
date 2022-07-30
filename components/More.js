@@ -2,7 +2,7 @@ import React from "react";
 import { FaPeopleCarry, FaFortAwesome } from "react-icons/fa";
 import {  ImHome } from "react-icons/im";
 import {  MdOutlineShoppingCart } from "react-icons/md";
-
+import Link from "next/link"
 
 
 const More = () => {
@@ -21,9 +21,9 @@ const More = () => {
           improvements company in Johannesburg, Sandton, Midrand, Pretoria &
           surrounding areas…
         </p>
-        <button className="py-2 px-5 text-2xl sm:text-1xl font-semibold mt-5 bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer rounded-sm hover:text-black">
-          Get Renovation services
-        </button>
+     
+        <button className="mt-[1rem] bg-gradient-to-r from-blue-500 to-green-400 hover:from-pink-500 hover:to-yellow-500 px-[2rem] py-[.7rem] text-2xl sm:text-1xl font-semibold text-white  rounded-md cursor-pointer "> <Link href="/contact">Get Renovation services</Link></button>
+
       </div>
       <div className="flex flex-col space-y-7">
         <div className="bg-blue-100 hover:bg-blue-300 cursor-pointer flex flex-col justify-center  py-[2rem] max-h-[200px] ">
@@ -42,12 +42,11 @@ const More = () => {
           <div className="flex pl-[1rem] items-center">
             <MdOutlineShoppingCart className="text-[2.2rem] text-blue-500" />
             <h1 className="text-Poppins text-xl md:text-[l7px] font-bold font-Poppins pl-3  ">
-              Shop Renovations
+              Civil works
             </h1>
           </div>
           <p className="text-[14px] pl-[5rem] pr-[1rem] font-Poppins font-semibold opacity-70 pt-5">
-            Bespoke shop renovations for hardware, supermarket, spaza, salon and
-            restaurant shops in Johannesburg
+            Civil works ,  electrical works , Plumbing, DB installation, genarator installation and servicing , 
           </p>
         </div>
       </div>
@@ -56,7 +55,7 @@ const More = () => {
           <div className="flex pl-[1rem] items-center">
             <ImHome className="text-[2.2rem] text-blue-500" />
             <h1 className="text-Poppins text-xl md:text-[l7px] font-bold font-Poppins pl-3 ">
-              Home Renovation
+              Home 
             </h1>
           </div>
           <p className="text-[14px] pl-[5rem] pr-[1rem] font-Poppins font-semibold opacity-70 pt-5">

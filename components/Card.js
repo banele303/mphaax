@@ -37,7 +37,7 @@ const cardData = [
   {
     id: 1,
     image: engineering,
-    head: "ENGiNEARING",
+    head: "HOUSE",
   },
   
   {
@@ -61,7 +61,7 @@ const cardData = [
 const Card = () => {
   return (
     <div>
-      <div className="grid grid-cols-1 md:grid-cols-4 items-center mx-[3rem] mb-[2rem]">
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-[2rem]  mb-[2rem]">
         {cardData.map((element, index) => (
           <CardElements data={element.head} img={element.image} />
         ))}

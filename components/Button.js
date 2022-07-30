@@ -5,7 +5,7 @@ const Button = ({ children }) => {
     <div>
       <button
         className="outline outline-none font-semibold 
-       border-2 border-blue-300 rounded-[18px] py-[4px]
+       border-2 border-blue-300 text-blue-500 rounded-[18px] py-[4px]
        px-[14px] hover:bg-blue-300 transition-all duration-75"
       >
         {children}

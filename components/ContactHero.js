@@ -4,7 +4,7 @@ const ContactHero = () => {
   return (
     <div>
       <div className="contact-hero h-[400px] mb-[4rem]">
-        <h1 className="text-white text-2xl md:text-[35px] font-Poppins font-bold pt-[5rem] pl-[5rem] md:pt-[14rem]">
+        <h1 className="text-white text-2xl md:text-[35px] font-Poppins font-bold pt-[16rem] pl-[5rem] md:pt-[14rem]">
           Contact Us
         </h1>
       </div>

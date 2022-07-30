@@ -20,7 +20,7 @@ const Vision = () => {
             the quality of life for all.
             <br /> The company is dedicated to maintaining professional
             standards within the Civil Engineering Industry.
-            <br /> Empyreal is committed to putting its Clients first and to
+            <br />  Mpha Projects is committed to putting its Clients first and to
             promote long–term relationships within the Private and Public
             sectors.
           </p>
@@ -29,7 +29,7 @@ const Vision = () => {
           <div className="flex item-center py-2">
             <FaGgCircle className="text-[3rem] " />
             <h1 className="text-Poppins text-xl md:text-3xl font-bold font-Poppins pl-3 pt-2">
-              Our Vision
+              Our Mission
             </h1>
           </div>
 
@@ -39,7 +39,7 @@ const Vision = () => {
             the quality of life for all.
             <br /> The company is dedicated to maintaining professional
             standards within the Civil Engineering Industry.
-            <br /> Empyreal is committed to putting its Clients first and to
+            <br />  Mpha Projects is committed to putting its Clients first and to
             promote long–term relationships within the Private and Public
             sectors.
           </p>
@@ -54,9 +54,9 @@ const Vision = () => {
         </div>
 
         <p className="max-w-[380px] md:max-w-[900px] text-[15px] font-Poppins px-[1rem] font-semibold opacity-70" >
-          Empyreal employs in excess of 150 permanent staff. In support of local
+        Mpha Projects employs in excess of 50 permanent staff. In support of local
           socio-economic upliftment, additional human resources at an annual
-          average in excess of 400 part time staff are appointed and sourced
+          average in excess of 70 part time staff are appointed and sourced
           from the local communities within which projects are located.
         </p>
       </div>

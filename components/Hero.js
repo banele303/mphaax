@@ -55,7 +55,7 @@ const Hero = () => {
                   <h2 className="md:text-5xl text-3xl  font-semibold">{slide.heading}</h2>
                   <p className="text-2xl sm:text-1xl ">{slide.desc}</p>
                   <hr />
-                  <button className="bg-gradient-to-r from-blue-500 to-green-400 py-2 px-5 text-2xl sm:text-1xl font-semibold mt-5 hover:from-pink-500 hover:to-yellow-500 rounded-md cursor-pointer"><Link href="/contact">{slide.button}</Link></button>
+                  <button className="bg-gradient-to-r from-blue-500 to-green-400 py-2 px-5 text-2xl sm:text-1xl font-semibold md:mt-5 hover:from-pink-500 hover:to-yellow-500 rounded-md cursor-pointer"><Link href="/contact">{slide.button}</Link></button>
                 </div>
               </div>
             )}

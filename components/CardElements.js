@@ -6,7 +6,7 @@ import Image from "next/image";
 const CardElements = ({ img, data }) => {
   return (
     <div>
-      <div className="relative w-[300px] h-[200px] aspect-h-9 rounded-md px-[1rem] hover:opacity-80  cursor-pointer">
+      <div className="relative md:w-[300px] h-[200px]  aspect-h-9 rounded-md  px-[1rem] hover:opacity-80  cursor-pointer items-center">
         <Image
           src={img}
           alt="Picture of the something nice"

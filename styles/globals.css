@@ -71,7 +71,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 2rem 6rem;
+    padding: 2rem 2rem;
     position: fixed;
     z-index: 88;
     width: 100%;
@@ -81,7 +81,7 @@
     justify-content: space-between;
     align-items: center;
     background-image: linear-gradient(to right top, #022339, #02233a, #02243a, #03243b, #03243b, #02243d, #01243f, #002441, #002346, #00224a, #00204e, #031e51);
-    padding: 2rem 6rem;
+    padding: 2rem 2rem;
     position: fixed;
     z-index: 88;
     width: 100%;
@@ -243,7 +243,7 @@
   
   @media screen and (max-width: 600px) {
     .slider {
-      height: 100vh;
+      height: 500px;
     }
   }
 
@@ -258,7 +258,7 @@
      width: 100%;
     height: 100%;
     
-    filter: brightness(50%);
+    filter: brightness(40%);
   }
   
   .current {
@@ -294,10 +294,10 @@
   
   @media screen and (max-width: 600px) {
     .content {
-      width: 80%;
-      top: 20rem;
-      left: 2rem;
-     
+      width: 100%;
+      top: 18rem;
+      left: .7rem;
+      
     }
   }
   
