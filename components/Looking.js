@@ -5,7 +5,7 @@ import info from "../public/about.jpg";
 
 import { BsHammer } from "react-icons/bs";
 import { FaPeopleCarry } from "react-icons/fa";
-import { IoIosPeople } from "react-icons/Io";
+import { IoIosPeople } from "react-icons/io";
 
 
 const Looking = () => {
