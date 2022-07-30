@@ -63,7 +63,7 @@ const Card = () => {
     <div>
       <div className="grid grid-cols-1 md:grid-cols-4 mx-[2rem]  mb-[2rem]">
         {cardData.map((element, index) => (
-          <CardElements data={element.head} img={element.image} />
+          <CardElements data={element.head} img={element.image} key={element.head}/>
         ))}
       </div>
     </div>
